@@ -1,0 +1,87 @@
+:root{
+	--blank: #fff;
+	--bleu: dodgerblue;
+	--jaune: #ffe100;
+	--vert: rgb(73,204,73);
+	--rouge: red;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image: linear-gradient(120deg,#2525ab,#18111b);
+	color: var(--blank);
+	font-family: "poppins",sans-serif;
+	min-height: 100vh;
+}
+header{
+	font-size: 25px;
+}
+header,form{
+	min-height: 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+form input,form button{
+	padding: 10px;
+	font-size: 20px;
+	border: none;
+	background: var(--blank);
+}
+form button{
+	cursor: pointer;
+	color: var(--bleu);
+	transition: all 0.5s ease;
+}
+form button:hover{
+	background: var(--bleu);
+	color: var(--blank);
+	font-weight: 600;
+}
+.container{
+	margin-left: 28vw;
+	color: var(--blank);
+}
+
+.content{
+	display: flex;
+}
+.content .img{
+	margin: 20px;
+	overflow: hidden;
+	height: 45vh;
+	width: 55vh;
+}
+.content .img img{
+	height: 45vh;
+	width: 55vh;
+
+}
+.content .text{
+	height: 45vh;
+	width: 55vh;
+	margin: 20px 0px;
+	font-size: 15px;
+}
+hr{
+	width: 90vh;
+}
+
+
+
+
+
+
+ion-icon{
+	pointer-events: none;
+	cursor: pointer;
+}
+.icons{
+	font-size: 35px;
+	color: red;
+	cursor: pointer;
+
+}
